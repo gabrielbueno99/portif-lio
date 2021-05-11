@@ -579,7 +579,7 @@ header {
 
     width: 100%;
     height: 100vh;
-    background-color: rgb(95, 92, 92);
+    background-color: rgb(61, 57, 57);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -704,4 +704,103 @@ header {
 
 
     
+}
+
+.sessao-orcamento {
+
+    width: 100%;
+    height: 100vh;
+    background: url("./imagens/nate-grant-QQ9LainS6tI-unsplash.jpg");
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.orcamento-wrapper {
+
+    width: 60%;
+    height: 80%;
+    background-color: #38333399;
+    border-radius: 10px;
+    box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.4);
+    position: relative;
+    
+
+
+}
+
+.sessao-orcamento h1{
+
+    position: absolute;
+    top: -2.5rem;
+    left: 2rem;
+    background: #6441A5;
+    background: -webkit-linear-gradient(to right, #2a0845, #6441A5);
+    background: linear-gradient(to right, #2a0845, #6441A5);
+    padding: 0 3rem;
+    padding-bottom: 0.7rem;
+    color: #ffff;
+    font-family: var(--font-secundary);
+    font-size: 3rem;
+    font-weight: lighter;
+    box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    text-align: center;
+
+    
+
+}
+
+.sessao-orcamento form {
+
+    margin: 4rem;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 2rem;
+    row-gap: 1rem;
+
+
+}
+
+.sessao-orcamento label {
+
+    font-family: var(--font-secundary);
+    font-size: 1.5rem;
+    font-weight: normal;
+    color:white;
+
+
+}
+
+.sessao-orcamento input[type="number"] {
+
+    font-family: var(--font-secundary);
+    width: 4rem;
+    font-size: 2rem;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 0.3rem;
+
+}.btn-orcamento {
+
+    grid-column: 2;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.2rem;
+    background: -webkit-linear-gradient(to right, #2a0845, #6441A5);
+    background: linear-gradient(to right, #2a0845, #6441A5); 
+    box-shadow:  0 .1rem .2rem rgba(0, 0, 0.4);;
+    font-family: var(--font-secundary);
+    color: turquoise;
+    width: 100%;
+    height: 2.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+    padding:0.7rem;
+
 }
